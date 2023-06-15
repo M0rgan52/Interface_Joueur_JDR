@@ -1,0 +1,26 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    color: #ff6060;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .error-404 {
+    font-size: 200px;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+  
+  .errorDescription {
+    font-size: 40px;
+  }
+  
+  .errorReturn{
+    color: #ff6060;
+    font-size: 18px;
+    margin-top: 100px;
+    margin-bottom: 258px;
+    text-decoration: none;
+  }

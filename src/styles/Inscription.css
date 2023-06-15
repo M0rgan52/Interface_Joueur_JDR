@@ -1,0 +1,27 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+
+.ContainerInscription{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+   border: 3px solid black;
+   flex-direction: row;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+  
+}
+
+form{
+    line-height: 80px;
+   
+}
+

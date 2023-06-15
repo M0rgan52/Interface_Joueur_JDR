@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    height: 50px;
+    background-color: #FF6060;
+
+}
+.navbar__links{
+    display: flex;
+    align-items: center;   
+    gap : 40px; 
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 22px;
+    
+}
+.navbar a :hover {
+    text-decoration: underline;
+    /* text-decoration-thickness: 0.1em;  mettre le lien plus épais */
+    color: black;
+    
+}
