@@ -1,0 +1,15 @@
+.testPerso{
+   display: flex;
+   width: 100%;
+
+}
+
+.testDiv{
+    width: 100%;
+    /* background-color: orange; */
+    /* position: fixed; */
+}
+.testLorem{
+   position: fixed;
+    
+}

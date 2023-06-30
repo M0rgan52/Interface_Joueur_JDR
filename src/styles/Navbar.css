@@ -3,8 +3,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 2rem;
-    height: 50px;
-    background-color: #FF6060;
+    height: auto;
+    background-color: aqua;
 
 }
 .navbar__links{
@@ -12,6 +12,11 @@
     align-items: center;   
     gap : 40px; 
     
+}
+
+.navbar img {
+    height: 100px;
+    width: 100px;
 }
 
 .navbar a{

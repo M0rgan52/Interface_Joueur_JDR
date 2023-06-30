@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 import '../styles/Inscription.css'
 
 
@@ -19,8 +20,11 @@ function Inscription() {
             <div className="test">
             <label htmlFor="code">Votre code de campagne</label>
             <input type="text" id="code" />
-            <button onClick={event => alert('vous avez cliqué')}>Cliquez ici</button>
+            
             </div>
+           <Link to="Home">
+           <button onClick={event => alert('vous êtes enregistré')}>Enregistrez-vous</button>
+           </Link>
           
         </form>
    

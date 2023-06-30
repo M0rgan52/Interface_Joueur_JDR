@@ -1,16 +1,41 @@
-body {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  
+.main h1{
+    text-align: center;
+    margin: 2vh 0;
+}
+
+.divHome{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.divHome p{
+   
+    text-align: center;
+   
+}
+.divHome a{
+   
+    text-decoration: none;
    
 }
 
-.main{
-    margin: 0 30px;
-  
+.campagne{
+    border: 2px solid black;
+    border-radius: 50px;
+    height: 500px;
+    width: 500px;
 }
 
-header{
-    margin-top: 10px;
+.perso{
+    border: 2px solid black;
+    border-radius: 50px;
+    height: 500px;
+    width: 500px;
+}
+
+.combat{
+    border: 2px solid black;
+    border-radius: 50px;
+    height: 500px;
+    width: 500px;
 }

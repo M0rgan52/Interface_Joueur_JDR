@@ -1,18 +1,29 @@
 import React from 'react'
-import Inscription from '../components/Inscription'
-
-
+import { Link } from 'react-router-dom'
 import "../styles/Home.css"
 
-function Home() {
+function Login() {
     return (
    
         <div className='main'>
-                <header>
-                <h1>Les BÔ Bro !</h1>
-                <p>Bienvenue jeunes joueurs ! Vous êtes passionnés par les jeux de rôles? Vous avez envie de créer vos propres fiches de personnages? Vous êtes au bon endroit</p>
-                </header>
-                <Inscription/>
+              <h1>Bienvenue XXXXXXXXXX</h1>
+              <div className='divHome'>
+                <Link to="Campagne">
+              <div className='campagne'>
+                <p>Clique ici pour accéder à la note de campagne</p>
+              </div>
+                </Link>
+                <Link to='Perso'>
+              <div className='perso'>
+              <p>Clique ici pour accéder à la fiche de ton personnage</p>
+              </div>
+                </Link>
+                <Link to="Combat">
+              <div className='combat'>
+              <p>Clique ici pour accéder à la feuille de combat</p>
+              </div>
+                </Link>
+              </div>
                 
                
         </div>
@@ -20,10 +31,4 @@ function Home() {
     )
 }
 
-export default Home
-
-
-
-
-
-
+export default Login

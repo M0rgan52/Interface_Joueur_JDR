@@ -2,10 +2,10 @@
     /* position: relative; */
     /* bottom: 0; */
     width: 100%;
-    background-color:#FF6060;
+    background-color:aqua;
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content:space-around;
     align-items: center;
     margin-top: auto;
     text-align: center;
@@ -22,9 +22,22 @@
 
 }
 
+.footer ul{
+    line-height: 2rem;
+    list-style-type: none;
+}
 
-img{
-    height: 100px;
-    width: 100px;
-   
+.footer a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+
+.contact p{
+    font-size: 16px;
+}
+
+.Copyright p{
+    font-size: 10px;
 }
