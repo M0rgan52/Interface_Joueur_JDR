@@ -1,34 +1,30 @@
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 2rem;
-    height: auto;
-    background-color: aqua;
-
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  height: auto;
+  background-color: #8777d4;
 }
-.navbar__links{
-    display: flex;
-    align-items: center;   
-    gap : 40px; 
-    
+.navbar__links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .navbar img {
-    height: 100px;
-    width: 100px;
+  height: 100px;
+  width: 100px;
 }
 
-.navbar a{
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-    font-size: 22px;
-    
+.navbar a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-size: 22px;
 }
 .navbar a :hover {
-    text-decoration: underline;
-    /* text-decoration-thickness: 0.1em;  mettre le lien plus épais */
-    color: black;
-    
+  text-decoration: underline;
+  /* text-decoration-thickness: 0.1em;  mettre le lien plus épais */
+  color: black;
 }
