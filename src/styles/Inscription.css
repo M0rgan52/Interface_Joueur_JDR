@@ -25,3 +25,11 @@ form{
    
 }
 
+label{
+    height: 60px;
+}
+
+.divLabel{
+    display: flex;
+    flex-direction: column;
+}

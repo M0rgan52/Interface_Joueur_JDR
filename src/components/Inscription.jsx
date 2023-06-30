@@ -9,15 +9,15 @@ function Inscription() {
       
       <div className="ContainerInscription">
         <form method="post">
-            <div className="test">
+            <div className="divLabel">
             <label htmlFor="id">Votre ID</label>
             <input type="text" id="id" />
             </div>
-            <div className="test">
+            <div className="divLabel">
             <label htmlFor="mdp">Votre mot de passe</label>
             <input type="password" id="mdp" />
             </div>
-            <div className="test">
+            <div className="divLabel">
             <label htmlFor="code">Votre code de campagne</label>
             <input type="text" id="code" />
             
