@@ -10,7 +10,7 @@ function Home() {
         <div className='main'>
             <header>
                 <h1>Interface joueur JDR</h1>
-                <p>Bienvenue jeunes joueurs ! Vous êtes passionnés par les jeux de rôles et vous en avez assez de la version papier? Avec bang Bang Jeux de Rôles tout devient plus simple</p>
+                <p>Bienvenue jeunes joueurs ! Vous êtes passionnés par les jeux de rôles et vous en avez assez de la version papier? Avec bang Bang Jeu de Rôles tout devient plus simple</p>
             </header>
             <Inscription />
 
