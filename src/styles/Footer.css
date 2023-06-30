@@ -9,14 +9,12 @@
   align-items: center;
   margin-top: auto;
   text-align: center;
-  padding-top: 20px;
+  padding: 2vh;
 }
 
 .footer p {
   color: black;
-  margin-top: 10px;
   font-size: 22px;
-  margin-left: 20px;
 }
 
 .footer ul {
