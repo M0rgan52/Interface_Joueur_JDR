@@ -1,21 +1,21 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import "../styles/Footer.css";
 
 function Footer() {
   return (
     <div className="footer">
-       <ul>
+      <ul>
         <Link to="Contact">
-        <li>
-          Nous contacter
-        </li>
+          <li>
+            Nous contacter
+          </li>
         </Link>
         <Link to="Mentions">
-        <li>
-          Mentions légales
-        </li>
+          <li>
+            Mentions légales
+          </li>
         </Link>
       </ul>
       <div className="formulaireDeContact">
