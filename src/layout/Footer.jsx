@@ -20,9 +20,6 @@ function Footer() {
       </ul>
       <div className="formulaireDeContact">
         <p>Les BÔ Bro</p>
-        <p> 76 Rue de la Clef des Champs 
-            95180 Menucourt
-        </p>
       </div>
       <div className="Copyright">
         <p> CCR 2023 - Tous droits réservés</p>
