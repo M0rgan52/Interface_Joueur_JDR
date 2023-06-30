@@ -9,7 +9,7 @@ function Home() {
 
         <div className='main'>
             <header>
-                <h1>Interface joueur JDR</h1>
+                <h1>Votre espace JDR </h1>
                 <p>Bienvenue jeunes joueurs ! Vous êtes passionnés par les jeux de rôles? Vous avez envie de créer vos propres fiches de personnages? Vous êtes au bon endroit</p>
             </header>
             <Inscription />
